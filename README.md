@@ -200,7 +200,7 @@ y_train = to_categorical(y_train_encoded, num_classes=num_classes)
 y_test = to_categorical(y_test_encoded, num_classes=num_classes)
 ```
 
-2-Define the Model:
+## 2-Define the Model:
 From my point of view this was the most important and interesting part as i learned a
 lot while modifying the layers and the comments indicates our trials
 The process is like the following 1- inputs get into the neuron 2- keras initialize the
